@@ -1,0 +1,62 @@
+GET http://127.0.0.1:5000/users
+Content-Type: application/json
+
+###
+
+POST http://127.0.0.1:5000/users/
+Content-Type: application/json
+
+{
+	"username": "hohoho",
+	"password": "happynew",
+	"role": "admin"
+}
+###
+
+GET http://127.0.0.1:5000/movies/
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QxIiwicGFzc3dvcmQiOiJIUzl6N0xkd2EwQkt3L3gyZ3MrNzF1TXN3RFFaQTBXeE9JK0hLaEttU0RJPSIsImV4cCI6MTY2NzU3NDExNX0.kaUt5l9YLFquea2vEuRY7PYpIKA3UcBzCKhGyOUip24
+
+###
+
+GET http://127.0.0.1:5000/movies/?director_id=12
+Accept: application/json
+Authorization: pass
+
+###
+
+GET http://127.0.0.1:5000/movies/?genre_id=4
+Accept: application/json
+Authorization: Bearer Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QxIiwicGFzc3dvcmQiOiJIUzl6N0xkd2EwQkt3L3gyZ3MrNzF1TXN3RFFaQTBXeE9JK0hLaEttU0RJPSIsImV4cCI6MTY2NzU3NDExNX0.kaUt5l9YLFquea2vEuRY7PYpIKA3UcBzCKhGyOUip24
+
+###
+
+GET http://127.0.0.1:5000/directors/
+Accept: application/json
+Authorization: Bearer Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QxIiwicGFzc3dvcmQiOiJIUzl6N0xkd2EwQkt3L3gyZ3MrNzF1TXN3RFFaQTBXeE9JK0hLaEttU0RJPSIsImV4cCI6MTY2NzU3NDExNX0.kaUt5l9YLFquea2vEuRY7PYpIKA3UcBzCKhGyOUip24
+
+###
+
+GET http://127.0.0.1:5000/directors/1
+Accept: application/json
+Authorization: Bearer Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QxIiwicGFzc3dvcmQiOiJIUzl6N0xkd2EwQkt3L3gyZ3MrNzF1TXN3RFFaQTBXeE9JK0hLaEttU0RJPSIsImV4cCI6MTY2NzU3NDExNX0.kaUt5l9YLFquea2vEuRY7PYpIKA3UcBzCKhGyOUip24
+
+###
+
+GET http://127.0.0.1:5000/genres/
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QxIiwicGFzc3dvcmQiOiJIUzl6N0xkd2EwQkt3L3gyZ3MrNzF1TXN3RFFaQTBXeE9JK0hLaEttU0RJPSIsImV4cCI6MTY2NzU3NDExNX0.kaUt5l9YLFquea2vEuRY7PYpIKA3UcBzCKhGyOUip24
+
+###
+
+GET http://127.0.0.1:5000/genres/1
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QxIiwicGFzc3dvcmQiOiJIUzl6N0xkd2EwQkt3L3gyZ3MrNzF1TXN3RFFaQTBXeE9JK0hLaEttU0RJPSIsImV4cCI6MTY2NzU3NDExNX0.kaUt5l9YLFquea2vEuRY7PYpIKA3UcBzCKhGyOUip24
+
+###
+
+GET http://127.0.0.1:5000/movies/21
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QxIiwicGFzc3dvcmQiOiJIUzl6N0xkd2EwQkt3L3gyZ3MrNzF1TXN3RFFaQTBXeE9JK0hLaEttU0RJPSIsImV4cCI6MTY2NzU3NDExNX0.kaUt5l9YLFquea2vEuRY7PYpIKA3UcBzCKhGyOUip24
+
+###
